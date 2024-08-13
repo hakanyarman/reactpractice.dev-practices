@@ -1,0 +1,20 @@
+.accordion {
+  font-family: 'Arial', sans-serif;
+}
+
+.accordion-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  border-bottom: 2px dotted black;
+}
+
+.icon {
+  font-size: 1.2rem;
+  color: #910f0f;
+  cursor: pointer;
+  float: right;
+}
