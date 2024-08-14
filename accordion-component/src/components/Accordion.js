@@ -20,7 +20,7 @@ export default function Accordion({ items }) {
     return (
         <div className='accordion'>
             {items.map((item, index) => (
-                <div className='accordion-item' key={index}>
+                <div className='accordion-item' key={index} tabIndex={index + 1}>
 
                     <h3>
                         {item.title}
